@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Table1]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [FirstName] NVARCHAR(50) NOT NULL, 
+    [Surname] NVARCHAR(50) NOT NULL, 
+    [TimeIN] TIMESTAMP NOT NULL, 
+    [TimeOut] TIMESTAMP NOT NULL
+)
